@@ -5,6 +5,16 @@ body {
     overflow: hidden;
     margin : 0px
 }
+button {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 10px 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+}
 p {
   font-family: arial;
   font-size: 25px;
