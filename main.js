@@ -11,7 +11,6 @@ canvas.style.top = (window.innerHeight / 4).toString() + 'px';
 var s = {ss : true,
          rc : false,
          cl : false,
-         cg : false,
          td : false},
          proj = 0;
 sandsim();
@@ -28,6 +27,5 @@ function choose(d) {
   if (proj == 0) {sandsim(); document.getElementById("proj").innerHTML = "Sand";}
   else if (proj == 1) {raycast(); document.getElementById("proj").innerHTML = "Raycast";}
   else if (proj == 2) {cloth(); document.getElementById("proj").innerHTML = "Cloth";}
-  else if (proj == 3) {cgol(); document.getElementById("proj").innerHTML = "Cellular automaton";}
-  else if (proj == 4) {render3d(); document.getElementById("proj").innerHTML = "3D Renderer";}
+  else if (proj == 3) {render3d(); document.getElementById("proj").innerHTML = "3D Renderer";}
 }
