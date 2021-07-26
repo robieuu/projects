@@ -42,7 +42,7 @@ function render3d() {
     if (m == 1){renderFace(objects[0]);}
     c.font = "15px sans-serif";
     c.fillStyle = "black";
-    c.fillText("1 / 2 : Models     WASD : Move      Arrow Keys : Rotate", 1, 15);
+    c.fillText("1 / 2 / 3 : Models     WASD : Move      Arrow Keys : Rotate", 1, 15);
   }
 
   function loadModel(model) {
